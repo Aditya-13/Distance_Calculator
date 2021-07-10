@@ -40,7 +40,7 @@ window = Tk()
 window.title("Distance Finder")
 window.geometry('400x500')
 window.configure(background=bg)
-logo = PhotoImage(file=" ") # Enter the path of the downloaded imsge here...
+logo = PhotoImage(file=" ") # Enter the path of the downloaded image here...
 
 Label (window, image=logo, bg=bg, height=200, width=400).grid(row=0, column=1, sticky=E)
 
